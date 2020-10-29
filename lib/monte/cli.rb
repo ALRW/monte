@@ -21,12 +21,12 @@ module Monte
     desc 'carlo BACKLOG THROUGHPUT', 'Command description...'
     method_option :help, aliases: '-h', type: :boolean,
                          desc: 'Display usage information'
-    def carlo(backlog, throughput)
+    def carlo
       if options[:help]
         invoke :help, ['carlo']
       else
         require_relative 'commands/carlo'
-        Monte::Commands::Carlo.new(backlog, throughput, options).execute
+        Monte::Commands::Carlo.new(options).execute
       end
     end
   end
