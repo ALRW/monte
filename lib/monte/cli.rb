@@ -17,5 +17,17 @@ module Monte
       puts "v#{Monte::VERSION}"
     end
     map %w(--version -v) => :version
+
+    desc 'carlo BACKLOG THROUGHPUT', 'Command description...'
+    method_option :help, aliases: '-h', type: :boolean,
+                         desc: 'Display usage information'
+    def carlo(backlog, throughput)
+      if options[:help]
+        invoke :help, ['carlo']
+      else
+        require_relative 'commands/carlo'
+        Monte::Commands::Carlo.new(backlog, throughput, options).execute
+      end
+    end
   end
 end
