@@ -117,5 +117,10 @@ module Monte
       require 'tty-which'
       TTY::Which.exist?(*args)
     end
+
+    def table(headers, rows)
+      require 'tty-table'
+      TTY::Table.new(headers, rows)
+    end
   end
 end

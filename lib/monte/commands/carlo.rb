@@ -7,19 +7,27 @@ module Monte
     # Runs Monte Carlo Simulation to estimate how long a piece of work will take
     class Carlo < Monte::Command
       CERTAINTY = { 'low' => 1.8, 'medium' => 1.5, 'high' => 1.2 }.freeze
+      HEADERS = ['5%', '15%', '30%', '50%', '70%', '85%', '95%'].freeze
+      PERCENTAGES = [0.05, 0.15, 0.3, 0.5, 0.7, 0.85, 0.95].freeze
       NUMBER_OF_RUNS = 100
 
       def initialize(options)
         @options = options
       end
 
-      def execute(_: $stdin, output: $stdout)
-        user_input = questions
+      def execute(output: $stdout)
+        user_input = ask_questions!
         simulations = run_simulations(user_input).sort
-        output.puts "It will take you between #{simulations[0]} weeks and #{simulations[-1]} to complete your work"
+        results = define_table(simulations)
+        output.puts(results)
       end
 
-      def questions
+      def define_table(simulations)
+        rows = PERCENTAGES.map { |x| simulations[NUMBER_OF_RUNS * x] }
+        table(HEADERS, [rows]).render(:unicode, alignment: [:center])
+      end
+
+      def ask_questions!
         prompt.collect do
           key(:backlog).ask('How many items do you have in your backlog?', convert: :int)
           key(:split_factor).select('How certain are you with regard to the scope of the work?', CERTAINTY)
