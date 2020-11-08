@@ -1,11 +1,13 @@
-/.bundle/
 /.yardoc
-/_yardoc/
+/.bundle
 /coverage/
+/Gemfile.lock
+/rdoc/
 /doc/
-/pkg/
-/spec/reports/
 /tmp/
+/pkg/
+/log/
+/lib/github_cli/man/u
 
 # rspec failure tracking
 .rspec_status
