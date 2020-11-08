@@ -122,5 +122,10 @@ module Monte
       require 'tty-table'
       TTY::Table.new(headers, rows)
     end
+
+    def large_title(title)
+      require 'tty-font'
+      TTY::Font.new(:standard).write(title)
+    end
   end
 end

@@ -16,9 +16,9 @@ module Monte
       require_relative 'version'
       puts "v#{Monte::VERSION}"
     end
-    map %w(--version -v) => :version
+    map %w[--version -v] => :version
 
-    desc 'carlo BACKLOG THROUGHPUT', 'Command description...'
+    desc 'carlo', 'Runs through a set of questions to generate a forecast for project completion'
     method_option :help, aliases: '-h', type: :boolean,
                          desc: 'Display usage information'
     def carlo

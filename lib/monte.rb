@@ -1,6 +1,6 @@
-require "monte/version"
+# frozen_string_literal: true
+
+require 'monte/version'
 
 module Monte
-  class Error < StandardError; end
-  # Your code goes here...
 end
