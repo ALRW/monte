@@ -17,7 +17,7 @@ RSpec.describe Simulation do
     }
     @sut = SUT.new
     @sut.extend(Simulation)
-    allow_any_instance_of(Object).to receive(:rand).and_return(4)
+    allow(@sut).to receive(:rand).and_return(4)
   end
 
   it 'can produce a plausible estimate' do
