@@ -20,7 +20,7 @@ module Monte
 
       def execute(output: $stdout)
         output.puts(create_header)
-        output.puts("Please answer the following:\n")
+        output.puts("Please answer the following:\n\n")
         user_input = ask_questions!
         results = percentiles(user_input)
         output.puts("\n\nYour Results\n\n")
@@ -32,7 +32,7 @@ module Monte
       end
 
       def create_header
-        large_title('Monte Carlo')
+        large_title('Monte')
       end
 
       def ask_questions!

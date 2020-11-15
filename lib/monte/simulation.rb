@@ -20,7 +20,7 @@ module Simulation
 
   def run_simulations(args)
     estimated_backlog = args[:backlog] * args[:split_factor]
-    Array.new(args[:runs]).map do |_|
+    Array.new(args[:runs]) do |_|
       args[:start_date] + simulate(
         backlog: estimated_backlog,
         low: args[:low],
