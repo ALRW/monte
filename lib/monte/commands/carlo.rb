@@ -9,9 +9,11 @@ module Monte
     # Runs Monte Carlo Simulation to estimate how long a piece of work will take
     class Carlo < Monte::Command
       include Simulation
+      BLURB = %(Welcome to Monte, a tool to help you answer the question: 'When will the work be done?'\n\n
+Please answer the following questions\n)
       CERTAINTY = { 'low' => 1.8, 'medium' => 1.5, 'high' => 1.2 }.freeze
       RUNS = { '10000' => 10_000, '1000' => 1000, '500' => 500 }.freeze
-      HEADERS = ['5%', '15%', '30%', '50%', '70%', '85%', '95%'].freeze
+      HEADERS = ['Forecast Certainty', '5%', '15%', '30%', '50%', '70%', '85%', '95%'].freeze
       PERCENTILES = [0.05, 0.15, 0.3, 0.5, 0.7, 0.85, 0.95].freeze
 
       def initialize(options)
@@ -19,16 +21,15 @@ module Monte
       end
 
       def execute(output: $stdout)
-        output.puts(create_header)
-        output.puts("Please answer the following:\n\n")
+        output.puts(create_header, BLURB)
         user_input = ask_questions!
         results = percentiles(user_input)
-        output.puts("\n\nYour Results\n\n")
         output.puts(create_table(results))
       end
 
       def create_table(rows)
-        table(HEADERS, [rows]).render(:unicode, alignment: [:center])
+        table(HEADERS, [rows.prepend('Forecast Date')])
+          .render(:unicode, alignment: [:center])
       end
 
       def create_header
@@ -37,7 +38,7 @@ module Monte
 
       def ask_questions!
         prompt.collect do
-          key(:backlog).ask('How many items do you have in your backlog?', convert: :int)
+          key(:backlog).ask('How many tasks/tickets do you have left to complete?', convert: :int)
           key(:split_factor).select('How certain are you with regard to the scope of the work?', CERTAINTY)
           key(:start_date).ask('When will you start work (e.g. 28/04/2021)') do |q|
             q.default Date.today

@@ -20,6 +20,6 @@ RSpec.describe Monte::Commands::Carlo do
       rows[0].to_s
     end
     command.execute(output: output)
-    expect(output.string).to eq("\nMonte\nPlease answer the following:\n\n\n\nYour Results\n\n2020-11-14\n")
+    expect(output.string).to eq("\nMonte\n#{Monte::Commands::Carlo::BLURB}2020-11-14\n")
   end
 end
