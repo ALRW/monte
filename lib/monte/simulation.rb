@@ -22,21 +22,21 @@ module Simulation
     estimated_backlog = args[:backlog] * args[:split_factor]
     Array.new(args[:runs]) do |_|
       args[:start_date] + simulate(
-        backlog: estimated_backlog,
-        low: args[:low],
-        high: args[:high]
+        estimated_backlog,
+        args[:low],
+        args[:high]
       ) * 7
     end
   end
 
-  def simulate(backlog:, low:, high:, result: 0)
+  def simulate(backlog, low, high, result = 0)
     return result if backlog <= 0
 
     simulate(
-      backlog: backlog - rand(low..high),
-      low: low,
-      high: high,
-      result: result + 1
+      backlog - rand(low..high),
+      low,
+      high,
+      result + 1
     )
   end
 end
