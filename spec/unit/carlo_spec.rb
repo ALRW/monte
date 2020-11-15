@@ -4,6 +4,7 @@ require 'monte/commands/carlo'
 
 RSpec.describe Monte::Commands::Carlo do
   it 'executes `carlo` command successfully' do
+    title = "\nMonte\n"
     args = {
       backlog: 20,
       split_factor: 1.2,
@@ -13,13 +14,14 @@ RSpec.describe Monte::Commands::Carlo do
       high: 6
     }
     output = StringIO.new
+    result = "#{title}#{Monte::Commands::Carlo::BLURB}#{args[:start_date] + 5 * 7}\n"
     command = Monte::Commands::Carlo.new({})
     allow(command).to receive(:ask_questions!) { args }
-    allow(command).to receive(:create_header) { "\nMonte\n" }
+    allow(command).to receive(:create_header) { title }
     allow(command).to receive(:create_table) do |rows|
       rows[0].to_s
     end
     command.execute(output: output)
-    expect(output.string).to eq("\nMonte\n#{Monte::Commands::Carlo::BLURB}2020-11-14\n")
+    expect(output.string).to eq(result)
   end
 end
