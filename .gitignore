@@ -9,5 +9,7 @@
 /log/
 /lib/github_cli/man/u
 
+#built gem
+monte-*
 # rspec failure tracking
 .rspec_status

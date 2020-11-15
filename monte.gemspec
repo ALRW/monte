@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'lib/monte/version'
 
 Gem::Specification.new do |spec|
@@ -8,11 +10,11 @@ Gem::Specification.new do |spec|
   spec.email         = ['awerner1@googlemail.com']
 
   spec.summary       = 'Monte Carlo forecasting for engineering projects'
-  spec.description   = 'Monte Carlo forecasting for engineering projects'
-  spec.homepage      = 'https://github.com/ALRW/monte.git'
+  spec.description   = "If you are an engineer who is being asked, 'When will
+  it be done?' then Monte can help by using the Monte Carlo method to provide
+  you with plausile forecasts based on historic data."
+  spec.homepage      = 'https://github.com/ALRW/monte'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
-
-  spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/ALRW/monte.git'
