@@ -1,220 +1,220 @@
-Issue key,Issue id,Issue Type,Priority,Summary,Status,Created,Updated,Custom field (Severity),Resolved
-GLBLEXEMEA-1760,1244864,Task,Medium,Add test card for UAE to site,Done,2020-11-05 12:58 PM,2020-11-06 11:28 AM,,2020-11-06 10:56 AM
-GLBLEXEMEA-1758,1244723,Task,Medium,"Wrong FX fees on pricing pages in CZ, RO, BG, CY and MT",Done,2020-11-05 10:14 AM,2020-11-06 10:56 AM,,2020-11-06 10:56 AM
-GLBLEXEMEA-1756,1241021,Task,Medium,Fix AE MVR's to store correct document type,Done,2020-11-03 4:38 PM,2020-11-04 12:45 PM,,2020-11-04 12:45 PM
-GLBLEXEMEA-1728,1211253,Task,Medium,Define MT's subdivisions (states),Done,2020-10-16 10:08 AM,2020-10-27 5:01 PM,,2020-10-27 5:01 PM
-GLBLEXEMEA-1726,1207263,Task,Medium,Nested entity verification doc,Done,2020-10-14 5:16 PM,2020-10-20 1:10 PM,,2020-10-20 1:10 PM
-GLBLEXEMEA-1711,1194719,Task,Medium,NI SFTP connection broken,Done,2020-10-07 10:18 AM,2020-10-12 8:16 PM,,2020-10-12 8:16 PM
-GLBLEXEMEA-1679,1170150,Task,Medium,Only require that rep name matches if it's a Proof of Authorization review task,Done,2020-09-22 2:26 PM,2020-09-22 4:00 PM,,2020-09-22 4:00 PM
-GLBLEXEMEA-1670,1170060,Task,Medium,Fix transition between Onbodocs and HVForm  ,Done,2020-09-22 12:24 PM,2020-09-23 8:44 AM,,2020-09-23 8:44 AM
-GLBLEXEMEA-1661,1163682,Task,Medium,Add MVR task for proof of auth document,Done,2020-09-18 12:37 PM,2020-09-21 2:13 PM,,2020-09-21 2:13 PM
-GLBLEXEMEA-1659,1161852,Task,Medium,Make board,Done,2020-09-17 6:18 PM,2020-09-17 6:22 PM,,2020-09-17 6:22 PM
-GLBLEXEMEA-1655,1159136,Task,Medium,Update AE LE verification strategy to handle proof of authorisation needed,Done,2020-09-16 5:43 PM,2020-09-23 8:47 AM,,2020-09-23 8:47 AM
-GLBLEXEMEA-1649,1154016,Task,Medium,Scope compliance plan change for document expiration logic,Done,2020-09-14 10:52 AM,2020-09-19 3:56 PM,,2020-09-19 3:56 PM
-GLBLEXEMEA-1647,1153976,Task,Medium,Update LE license and MoA manual review tasks to check if rep is on either doc,Done,2020-09-14 10:09 AM,2020-09-17 1:29 PM,,2020-09-17 1:29 PM
-GLBLEXEMEA-1639,1151145,Task,Medium,Use ID number in AE person verifications,Done,2020-09-11 3:16 PM,2020-09-16 11:47 AM,,2020-09-16 11:47 AM
-GLBLEXEMEA-1632,1143836,Task,Medium,UAE merchants being unable to submit their account app ,Done,2020-09-07 12:16 PM,2020-09-14 4:48 PM,,2020-09-14 9:49 AM
-GLBLEXEMEA-1630,1140908,Task,Medium,VAT format for Hungary is 11 digits.,Done,2020-09-04 10:29 AM,2020-09-25 1:16 PM,,2020-09-25 1:16 PM
-GLBLEXEMEA-1615,1127509,Task,Medium,"Update ""Passport and Visa page"" text to just ""Passport Visa page"" in document upload frontend",Done,2020-08-27 5:25 PM,2020-08-28 4:30 PM,,2020-08-28 4:30 PM
-GLBLEXEMEA-1597,1114060,Task,Medium,Aggregate transfers for NI settlement emails that cover multiple days,Done,2020-08-18 4:52 PM,2020-08-19 12:10 PM,,2020-08-19 12:10 PM
-GLBLEXEMEA-1594,1111867,Task,Medium,Document how to handle negative settlement amounts for the UAE/NI,Done,2020-08-17 10:38 AM,2020-08-28 4:30 PM,,2020-08-28 4:30 PM
-GLBLEXEMEA-1589,1108070,Task,Medium,Migrate UAE account app to HVForm,Done,2020-08-14 10:31 AM,2020-11-11 4:18 PM,,2020-11-11 4:18 PM
-GLBLEXEMEA-1578,1104544,Task,Medium,Add excelsior task to mark UAE negative balance transfer as sent,Done,2020-08-12 11:15 AM,2020-08-18 5:47 PM,,2020-08-18 5:47 PM
-GLBLEXEMEA-1577,1104509,Task,Medium,Make checker to check there are no negative NI settlements awaiting transfer,Done,2020-08-12 10:51 AM,2020-08-13 3:11 PM,,2020-08-13 3:11 PM
-GLBLEXEMEA-1576,1104477,Task,Medium,Change all emea-onboarding-bots notifications to emea-expansion-bots,Done,2020-08-12 9:57 AM,2020-08-12 12:10 PM,,2020-08-12 12:10 PM
-GLBLEXEMEA-1575,1103017,Task,Medium,Remove ID number displaying on verifications page for CEE countries,Done,2020-08-11 11:44 AM,2020-08-12 10:14 AM,,2020-08-12 10:14 AM
-GLBLEXEMEA-1571,1098828,Task,Medium,Handle negative fund flow amounts in NI settlement emails,Done,2020-08-07 3:06 PM,2020-08-13 2:03 PM,,2020-08-13 2:03 PM
-GLBLEXEMEA-1552,1086936,Task,Highest,Take holidays into considering in NI settlement emails,Done,2020-07-30 4:10 PM,2020-08-11 4:05 PM,,2020-08-11 4:05 PM
-GLBLEXEMEA-1551,1086935,Task,Highest,Create NISettlementEmailNotifications after email sent to keep track of emails,Done,2020-07-30 4:10 PM,2020-08-11 10:57 AM,,2020-08-11 10:57 AM
-GLBLEXEMEA-1530,1084220,Task,Medium,Checker failed: opus_ops_onboarding_partner_ni_pipeline_niweeklyboardingcreator_file_completion_frequency,Done,2020-07-29 1:24 AM,2020-10-12 4:39 PM,,2020-10-12 4:39 PM
-GLBLEXEMEA-1507,1073865,Task,Medium,Checker failed: opus_ops_reporting_partner_ni_private_creator_nidailynetworksummarycreator_file_completion_frequency,Done,2020-07-22 1:48 AM,2020-10-12 5:50 PM,,2020-10-12 5:50 PM
-GLBLEXEMEA-1506,1073068,Task,Medium,Checker failed: no_incomplete_opsfiles_of_type_ni_submission,Done,2020-07-21 6:48 PM,2020-10-12 5:34 PM,,2020-10-12 5:34 PM
-GLBLEXEMEA-1489,1064412,Task,Medium,MC Local NI discrepancies for July 2020,Done,2020-07-16 1:19 PM,2020-08-27 10:38 AM,,2020-08-27 10:38 AM
-GLBLEXEMEA-1486,1064054,Task,Medium,Add Proof of Authorisation document type to verifications page,Done,2020-07-16 2:09 AM,2020-09-21 1:30 PM,,2020-09-21 1:30 PM
-GLBLEXEMEA-1482,1063024,Task,Medium,SFTP upload request - UAE pilot merchant - Streetlife,Done,2020-07-15 4:55 PM,2020-07-15 5:41 PM,,2020-07-15 5:41 PM
-GLBLEXEMEA-1480,1062869,Task,Medium,Write document expiration design doc for EMEA design forum ,Done,2020-07-15 1:58 PM,2020-07-17 11:52 AM,,2020-07-17 11:52 AM
-GLBLEXEMEA-1477,1061317,Task,Medium,API review for authorised signatory field,Done,2020-07-14 1:41 PM,2020-08-25 3:24 PM,,2020-08-25 3:24 PM
-GLBLEXEMEA-1475,1061200,Task,Medium,Fix UAE documents email format,Done,2020-07-14 10:24 AM,2020-07-30 2:44 PM,,2020-07-30 2:44 PM
-GLBLEXEMEA-1457,1048711,Task,Medium,Update AE compliance plan,Done,2020-07-05 4:50 PM,2020-11-11 4:18 PM,,2020-11-11 4:18 PM
-GLBLEXEMEA-1451,1048068,Task,Medium,Update AE document review tasks to collect expiry date,Done,2020-07-03 4:14 PM,2020-07-16 11:17 AM,,2020-07-16 11:17 AM
-GLBLEXEMEA-1443,1046363,Bug,Medium,hi team - some feedback from Hungarian user when testing their account.,Done,2020-07-02 11:39 AM,2020-07-15 11:25 AM,,2020-07-15 10:06 AM
-GLBLEXEMEA-1425,1033155,Task,Medium,Scope UAE visa scheme fees,Done,2020-06-23 11:13 AM,2020-07-06 10:12 AM,,2020-07-06 10:12 AM
-GLBLEXEMEA-1422,1031634,Task,Medium,Business Tax ID entry field is confusing users signing up for Hungary Pilot,Done,2020-06-22 4:47 PM,2020-07-06 11:27 AM,,2020-07-06 11:27 AM
-GLBLEXEMEA-1418,1029718,Task,Medium,UAE document expiration scoping,Done,2020-06-19 4:30 PM,2020-07-06 10:12 AM,,2020-07-06 10:12 AM
-GLBLEXEMEA-1416,1029713,Task,Medium,UAE invite-only scoping,Done,2020-06-19 4:27 PM,2020-07-16 11:43 AM,,2020-07-16 11:43 AM
-GLBLEXEMEA-1415,1029655,Task,Medium,UAE IC+ support ,Done,2020-06-19 3:18 PM,2020-07-02 12:54 PM,,2020-07-02 12:54 PM
-GLBLEXEMEA-1414,1029652,Task,Medium,Security review for SFTP merchant document upload,Done,2020-06-19 3:17 PM,2020-06-29 9:46 AM,,2020-06-29 9:46 AM
-GLBLEXEMEA-1388,1020946,Task,Medium,Document runner task for uploading AE merchant docs to NI SFTP using script,Done,2020-06-12 2:14 PM,2020-07-16 11:43 AM,,2020-07-16 11:43 AM
-GLBLEXEMEA-1387,1019482,Task,Medium,Write script to upload folder onto NI SFTP server,Done,2020-06-11 4:04 PM,2020-07-16 11:43 AM,,2020-07-16 11:43 AM
-GLBLEXEMEA-1337,993982,Task,Medium,Add CY&MT from migration countries,Done,2020-05-25 10:57 AM,2020-05-26 3:01 PM,,2020-05-26 3:01 PM
-GLBLEXEMEA-1329,991622,Task,Medium,Scope document expiration,Done,2020-05-21 2:58 PM,2020-05-29 3:20 PM,,2020-05-29 3:20 PM
-GLBLEXEMEA-1327,991614,Task,Medium,"Add BG, HU, CY and MT to NormalizeIDNumber",Done,2020-05-21 2:40 PM,2020-05-21 5:25 PM,,2020-05-21 5:25 PM
-GLBLEXEMEA-1326,991500,Task,Medium,Helping Nguyen set up dev environment,Done,2020-05-21 9:44 AM,2020-05-28 4:49 PM,,2020-05-28 4:49 PM
-GLBLEXEMEA-1324,989853,Task,Medium,Localize account apps for CY and MT,Done,2020-05-20 2:38 PM,2020-05-20 4:14 PM,,2020-05-20 4:14 PM
-GLBLEXEMEA-1323,989810,Task,Medium,Update Uppsala interchange MT,Done,2020-05-20 12:50 PM,2020-05-28 9:55 AM,,2020-05-28 9:55 AM
-GLBLEXEMEA-1302,985797,Task,Medium,Remove regex validation of account number for CY and MT.,Done,2020-05-18 10:49 AM,2020-05-18 10:53 AM,,2020-05-18 10:53 AM
-GLBLEXEMEA-1299,982599,Bug,Medium,[UAE] User is getting an error while completing the account application,Done,2020-05-15 10:48 AM,2020-05-18 3:18 PM,,2020-05-18 3:18 PM
-GLBLEXEMEA-1294,981453,Task,Medium,Scope out operational metrics,Done,2020-05-14 4:56 PM,2020-06-08 9:40 AM,,2020-06-08 9:40 AM
-GLBLEXEMEA-1290,979513,Task,Medium,Create parser for BG TBTs sent to NL and GB,Done,2020-05-13 11:33 AM,2020-06-03 4:31 PM,,2020-06-03 4:31 PM
-GLBLEXEMEA-1289,978191,Task,Medium,AE Legal Entity Types API Review,Done,2020-05-12 4:28 PM,2020-05-29 10:27 AM,,2020-05-29 10:27 AM
-GLBLEXEMEA-1288,977893,Task,Medium,Add CY and MT to Req Info page,Done,2020-05-12 11:10 AM,2020-05-13 10:05 AM,,2020-05-13 10:05 AM
-GLBLEXEMEA-1285,976150,Task,Low,Set MC fee rates for MT,Done,2020-05-11 3:07 PM,2020-06-24 11:35 AM,,2020-06-24 11:35 AM
-GLBLEXEMEA-1277,973917,Task,Medium,Only collect LLC and corporation for AE HVForm account app,Done,2020-05-08 11:59 AM,2020-05-08 12:06 PM,,2020-05-08 12:06 PM
-GLBLEXEMEA-1275,972544,Task,Medium,Add visa interchange for MT,Done,2020-05-07 3:28 PM,2020-05-21 5:12 PM,,2020-05-21 5:12 PM
-GLBLEXEMEA-1273,972506,Task,Medium,Cross border TBT BG/BGN to NL/EUR penny test,Done,2020-05-07 2:03 PM,2020-05-13 11:35 AM,,2020-05-13 11:35 AM
-GLBLEXEMEA-1269,969733,Task,Medium,Test standard connect for AE,Done,2020-05-05 3:04 PM,2020-05-11 11:10 AM,,2020-05-11 11:10 AM
-GLBLEXEMEA-1266,962772,Task,Medium,Add braces to rep phone number placeholder,Done,2020-04-30 4:54 PM,2020-04-30 6:37 PM,,2020-04-30 6:37 PM
-GLBLEXEMEA-1262,962546,Task,Medium,Cross border TBT BG/BGN to DK/EUR penny test,Done,2020-04-30 10:04 AM,2020-05-11 10:05 AM,,2020-05-11 10:05 AM
-GLBLEXEMEA-1261,962545,Task,Medium,Cross border TBT BG/BGN to GB/EUR penny test,Done,2020-04-30 10:04 AM,2020-05-13 11:36 AM,,2020-05-13 11:36 AM
-GLBLEXEMEA-1250,954587,Task,Medium,Update Citi assembler to support BG cross border treasury book transfer wires.,Done,2020-04-24 6:15 PM,2020-05-06 5:51 PM,,2020-05-06 5:51 PM
-GLBLEXEMEA-1249,954585,Task,Medium,Add cross border treasury book transfer from BG/BGN to DK/PLN batch type,Done,2020-04-24 6:15 PM,2020-04-29 1:20 PM,,2020-04-29 1:20 PM
-GLBLEXEMEA-1244,954573,Task,Medium,Add cross border TBT BG/BGN  pipeline e2e tests,Done,2020-04-24 6:09 PM,2020-05-06 8:57 PM,,2020-05-06 8:57 PM
-GLBLEXEMEA-1243,954571,Task,Medium,Add tests for cross border wires from BG excelsior task,Done,2020-04-24 6:08 PM,2020-05-06 8:57 PM,,2020-05-06 8:57 PM
-GLBLEXEMEA-1242,954569,Task,Medium,Cross border TBT BG/BGN to DK/USD penny test,Done,2020-04-24 6:07 PM,2020-05-12 10:46 AM,,2020-05-12 10:11 AM
-GLBLEXEMEA-1239,954565,Task,Medium,Add File Differential Test for Citi BG/BGN Cross Border TBTs,Done,2020-04-24 6:06 PM,2020-05-12 10:42 AM,,2020-05-12 10:42 AM
-GLBLEXEMEA-1237,954563,Task,Medium,Create network country config for the cross border BG TBT,Done,2020-04-24 6:06 PM,2020-04-29 2:49 PM,,2020-04-29 2:49 PM
-GLBLEXEMEA-1236,954556,Task,Medium,Route TBTs to the cross border BG/BGN batch type,Done,2020-04-24 6:03 PM,2020-04-29 3:57 PM,,2020-04-29 3:57 PM
-GLBLEXEMEA-1216,952946,Task,Medium,Set up Sentry for emea expansion,Done,2020-04-23 5:49 PM,2020-05-05 1:12 PM,,2020-05-05 1:12 PM
-GLBLEXEMEA-1212,952623,Task,Medium,Change redirect for LE documents banner to account/verifications/documents,Done,2020-04-23 10:51 AM,2020-04-23 5:22 PM,,2020-04-23 5:22 PM
-GLBLEXEMEA-1203,943414,Task,Medium,Fix notifications banner in UAE AA for when legal entity requirements are due,Done,2020-04-16 2:47 PM,2020-04-16 5:25 PM,,2020-04-16 5:25 PM
-GLBLEXEMEA-1201,941912,Task,Medium,Do test charges for CY&MT,Done,2020-04-15 4:19 PM,2020-04-17 3:29 PM,,2020-04-17 3:26 PM
-GLBLEXEMEA-1194,940234,Task,Medium,Create cron job to send an email requesting Visa and MasterCard's funds to NI,Done,2020-04-14 8:57 AM,2020-08-10 11:44 AM,,2020-08-10 11:44 AM
-GLBLEXEMEA-1193,940233,Task,Medium,Write up queries to collate the funding from Visa and MasterCard in the UAE,Done,2020-04-14 8:55 AM,2020-07-03 12:21 PM,,2020-07-03 12:21 PM
-GLBLEXEMEA-1188,935848,Task,Medium,Update Uppsala interchange CY,Done,2020-04-09 4:27 PM,2020-05-28 9:55 AM,,2020-05-28 9:55 AM
-GLBLEXEMEA-1187,935847,Task,Medium,Add CY&MT to the drop down list in IC+,Done,2020-04-09 4:26 PM,2020-06-19 9:50 AM,,2020-06-19 9:50 AM
-GLBLEXEMEA-1186,935839,Task,Medium,Add rate card migration for custom connect for CY&MT,Done,2020-04-09 4:17 PM,2020-06-23 4:20 PM,,2020-06-23 4:20 PM
-GLBLEXEMEA-1185,935828,Task,Medium,Test standard connect for CY&MT,Done,2020-04-09 4:09 PM,2020-04-30 4:58 PM,,2020-04-30 4:58 PM
-GLBLEXEMEA-1184,935821,Task,Medium,Test custom connect for CY&MT,Done,2020-04-09 4:01 PM,2020-05-14 1:36 PM,,2020-05-14 1:36 PM
-GLBLEXEMEA-1183,935820,Task,Low,Set MC fee rates for CY,Done,2020-04-09 4:00 PM,2020-06-24 11:35 AM,,2020-06-24 11:35 AM
-GLBLEXEMEA-1182,935819,Task,Medium,Remove CY&MT from migration countries,Done,2020-04-09 3:58 PM,2020-06-24 1:22 PM,,2020-06-24 1:22 PM
-GLBLEXEMEA-1180,935816,Task,Medium,Add a migration for custom connect sticker rate cards CY&MT,Done,2020-04-09 3:57 PM,2020-06-18 2:58 PM,,2020-06-18 2:58 PM
-GLBLEXEMEA-1179,935815,Task,Medium,Make CY&MT self serve,Done,2020-04-09 3:55 PM,2020-05-20 9:10 PM,,2020-05-20 9:10 PM
-GLBLEXEMEA-1178,935813,Task,Medium,Enable Express/HO for CY&MT,Done,2020-04-09 3:53 PM,2020-05-13 6:32 PM,,2020-05-13 6:32 PM
-GLBLEXEMEA-1177,935810,Task,Medium,Remove feature flags for CY&MT,Done,2020-04-09 3:51 PM,2020-06-18 4:53 PM,,2020-06-18 4:53 PM
-GLBLEXEMEA-1175,935802,Task,Medium,Add visa interchange for CY,Done,2020-04-09 3:48 PM,2020-05-20 2:40 PM,,2020-05-20 2:40 PM
-GLBLEXEMEA-1173,935799,Task,Medium,Enable custom connect for CY&MT,Done,2020-04-09 3:45 PM,2020-05-13 3:06 PM,,2020-05-13 3:06 PM
-GLBLEXEMEA-1172,935796,Task,Medium,Add payout currencies for CY&MT,Done,2020-04-09 3:43 PM,2020-05-12 4:16 PM,,2020-05-12 4:16 PM
-GLBLEXEMEA-1171,935766,Task,Medium,Add pricing page for CY & MT,Done,2020-04-09 2:52 PM,2020-04-23 3:51 PM,,2020-04-23 3:51 PM
-GLBLEXEMEA-1170,935763,Task,Medium,Write function to fill email template and send email instructions to NI,Done,2020-04-09 2:38 PM,2020-08-10 11:44 AM,,2020-08-10 11:44 AM
-GLBLEXEMEA-1169,935762,Task,Medium,Write a html.erb template email to NI for the instructions,Done,2020-04-09 2:37 PM,2020-04-22 10:05 AM,,2020-04-22 10:05 AM
-GLBLEXEMEA-1164,934537,Task,Medium,Enable AMEX for CY & MT,Done,2020-04-08 4:58 PM,2020-04-27 3:36 PM,,2020-04-27 3:36 PM
-GLBLEXEMEA-1161,934523,Task,Medium,Update IBAN max limit in account apps to handle MT IBANs,Done,2020-04-08 4:47 PM,2020-06-19 3:19 PM,,2020-06-19 3:19 PM
-GLBLEXEMEA-1157,931769,Task,Medium,Add AE LE doc types to GetDatumsVerificationStatus,Done,2020-04-06 7:15 PM,2020-04-07 9:53 AM,,2020-04-07 9:53 AM
-GLBLEXEMEA-1156,931730,Task,Medium,Don't delete business name subtasks of different doc types.,Done,2020-04-06 6:56 PM,2020-04-07 3:09 PM,,2020-04-07 3:09 PM
-GLBLEXEMEA-1155,931340,Task,Medium,Stop ManualIdentificationAction with ID number being created for AE document,Done,2020-04-06 2:35 PM,2020-04-07 9:53 AM,,2020-04-07 9:53 AM
-GLBLEXEMEA-1154,931312,Task,Medium,Don't override rejection reasons after document upload,Done,2020-04-06 1:45 PM,2020-04-07 9:53 AM,,2020-04-07 9:53 AM
-GLBLEXEMEA-1153,931220,Task,Medium,Stop programmatic verification actions being triggered for AE,Done,2020-04-06 11:28 AM,2020-04-06 7:20 PM,,2020-04-06 7:20 PM
-GLBLEXEMEA-1139,926167,Task,Medium,Add bank account for CY&MT to site ,Done,2020-04-01 6:16 PM,2020-04-23 2:27 PM,,2020-04-23 2:27 PM
-GLBLEXEMEA-1138,926164,Task,Medium,Add CY&MT test card to site,Done,2020-04-01 6:15 PM,2020-04-20 7:24 PM,,2020-04-20 7:24 PM
-GLBLEXEMEA-1137,926163,Task,Medium,Create CY&MT test cards,Done,2020-04-01 6:14 PM,2020-04-21 9:54 AM,,2020-04-21 9:54 AM
-GLBLEXEMEA-1136,926157,Task,Medium,Add CY&MT flags to site,Done,2020-04-01 6:12 PM,2020-04-16 5:26 PM,,2020-04-16 5:26 PM
-GLBLEXEMEA-1126,922007,Task,Medium,Initial PR with country gating for CY&MT,Done,2020-03-29 5:07 PM,2020-04-01 1:53 PM,,2020-04-01 1:53 PM
-GLBLEXEMEA-1125,922006,Task,Medium,Add beta invites for CY&MT,Done,2020-03-29 5:05 PM,2020-04-01 6:58 PM,,2020-04-01 6:58 PM
-GLBLEXEMEA-1124,922005,Task,Medium,Add compliance plan and mapping for CY&MT,Done,2020-03-29 5:04 PM,2020-04-15 4:08 PM,,2020-04-15 4:08 PM
-GLBLEXEMEA-1123,922004,Task,Medium,Account app for MT,Done,2020-03-29 5:03 PM,2020-04-08 3:33 PM,,2020-04-08 3:33 PM
-GLBLEXEMEA-1122,922003,Task,Medium,Account app for CY,Done,2020-03-29 5:02 PM,2020-04-09 6:04 PM,,2020-04-09 6:04 PM
-GLBLEXEMEA-1121,922002,Task,Medium,Update account apps of other countries to include CY&MT,Done,2020-03-29 5:01 PM,2020-04-14 2:56 PM,,2020-04-14 2:56 PM
-GLBLEXEMEA-1120,922001,Task,Medium,ORR gates for CY&MT,Done,2020-03-29 5:00 PM,2020-04-09 6:03 PM,,2020-04-09 6:03 PM
-GLBLEXEMEA-1119,922000,Task,Medium,Add country test data for CY&MT,Done,2020-03-29 4:59 PM,2020-04-14 4:51 PM,,2020-04-14 4:51 PM
-GLBLEXEMEA-1118,921999,Task,Medium,Create default fee plan for CY&MT,Done,2020-03-29 4:58 PM,2020-04-17 1:05 PM,,2020-04-17 1:05 PM
-GLBLEXEMEA-1117,921998,Task,Medium,Add CY&MT legal page to site,Done,2020-03-29 4:56 PM,2020-04-16 2:56 PM,,2020-04-16 2:56 PM
-GLBLEXEMEA-1116,921997,Task,Medium,Add Acquiring in CY&MT,Done,2020-03-29 4:55 PM,2020-04-14 2:55 PM,,2020-04-14 2:55 PM
-GLBLEXEMEA-1115,921996,Task,Medium,Update payouts attributes for CY & MT,Done,2020-03-29 4:54 PM,2020-04-16 5:25 PM,,2020-04-16 5:25 PM
-GLBLEXEMEA-1114,921995,Task,Medium,Add placeholders to fields for CY&MT,Done,2020-03-29 4:51 PM,2020-04-14 4:57 PM,,2020-04-14 4:57 PM
-GLBLEXEMEA-1110,921988,Task,Medium,Add feature flag for CY & MT site chages,Done,2020-03-29 4:39 PM,2020-04-16 5:25 PM,,2020-04-16 5:25 PM
-GLBLEXEMEA-1067,905883,Task,Medium,Undo hiding email for rep's in AA,Done,2020-03-16 10:58 AM,2020-03-19 3:19 PM,,2020-03-19 3:19 PM
-GLBLEXEMEA-1063,902686,Task,Medium,Update field_needed_and_error to handle errors in documents hash,Done,2020-03-12 10:10 AM,2020-03-19 2:25 PM,,2020-03-19 2:25 PM
-GLBLEXEMEA-1059,902665,Task,Medium,Test emails end to end,Done,2020-03-12 9:37 AM,2020-04-24 4:33 PM,,2020-04-24 4:33 PM
-GLBLEXEMEA-1056,901366,Task,Medium,Update add person view to handle nationalities for AE merchants,Done,2020-03-11 1:29 PM,2020-03-12 9:36 AM,,2020-03-12 9:36 AM
-GLBLEXEMEA-1055,901298,Task,Medium,Fix editing nationality in document collection sidebars to use `nationality` instead of id_number_country,Done,2020-03-11 11:33 AM,2020-03-11 6:02 PM,,2020-03-11 6:02 PM
-GLBLEXEMEA-1054,896473,Bug,Medium,User can't onboard to CZ when on AAv2 ,Done,2020-03-06 5:42 PM,2020-03-09 11:07 PM,,2020-03-09 10:56 PM
-GLBLEXEMEA-1041,889923,Task,Medium,Add nationalities to dataland,Done,2020-03-02 10:10 AM,2020-03-20 12:58 PM,,2020-03-20 12:58 PM
-GLBLEXEMEA-1040,889922,Task,Medium,Get NI SFTP connectivity working,Done,2020-03-02 10:10 AM,2020-03-10 4:07 PM,,2020-03-10 4:07 PM
-GLBLEXEMEA-929,877929,Task,Medium,Daily Settlement report,Done,2020-02-20 10:36 AM,2020-03-25 10:03 AM,,2020-03-25 10:03 AM
-GLBLEXEMEA-928,877928,Task,Medium,Transaction Summary report,Done,2020-02-20 10:36 AM,2020-03-24 3:09 PM,,2020-03-24 3:09 PM
-GLBLEXEMEA-921,874932,Task,Medium,Change 'Corporation' to 'Free Zone LLC' in document collection view,Done,2020-02-18 11:48 AM,2020-02-25 2:59 PM,,2020-02-25 2:59 PM
-GLBLEXEMEA-910,871918,Task,Medium,Set up separate manual review queue for UAE review tasks,Done,2020-02-13 10:24 PM,2020-02-21 10:30 AM,,2020-02-21 10:30 AM
-GLBLEXEMEA-908,871285,Task,Medium,Add UAE emailing in compliance plans notification consumer,Done,2020-02-13 3:14 PM,2020-03-04 9:28 AM,,2020-03-04 9:28 AM
-GLBLEXEMEA-900,862771,Task,Medium,Test if notifications to do list works for UAE,Done,2020-02-06 11:49 AM,2020-02-13 10:37 AM,,2020-02-13 10:37 AM
-GLBLEXEMEA-899,862770,Task,Medium,Fix notifications banner for UAE,Done,2020-02-06 11:48 AM,2020-02-18 3:32 PM,,2020-02-18 3:32 PM
-GLBLEXEMEA-897,862758,Task,Medium,Update UAE AA to default to company fields instead of sole prop fields,Done,2020-02-06 11:17 AM,2020-02-06 4:56 PM,,2020-02-06 4:56 PM
-GLBLEXEMEA-887,858047,Task,Medium,Add nationality to API,Done,2020-02-03 10:15 AM,2020-02-11 9:43 AM,,2020-02-11 9:43 AM
-GLBLEXEMEA-872,853190,Task,Medium,Check DOB in passport manual verification review,Done,2020-01-29 11:12 AM,2020-01-30 1:45 PM,,2020-01-30 1:45 PM
-GLBLEXEMEA-868,847240,Task,Medium,Add UAE legal entity verification strategy,Done,2020-01-24 4:25 PM,2020-02-17 11:33 AM,,2020-02-17 11:33 AM
-GLBLEXEMEA-867,845902,Task,Medium,Fix person and legal entity views on document collection page for UAE merchants: edit forms,Done,2020-01-23 4:52 PM,2020-02-11 9:43 AM,,2020-02-11 9:43 AM
-GLBLEXEMEA-866,845767,Task,Medium,Fix person and legal entity views on document collection page for UAE merchants,Done,2020-01-23 12:49 PM,2020-01-23 4:53 PM,,2020-01-23 4:53 PM
-GLBLEXEMEA-865,844084,Task,Medium,API review for nationality field,Done,2020-01-22 10:17 AM,2020-02-04 9:16 AM,,2020-02-04 9:16 AM
-GLBLEXEMEA-855,841809,Task,Medium,Merchant onboarding report,Done,2020-01-20 9:39 AM,2020-03-26 4:56 PM,,2020-03-26 4:56 PM
-GLBLEXEMEA-845,840906,Task,Medium,Collect nationality from owners instead of id number,Done,2020-01-17 9:55 PM,2020-01-22 10:15 AM,,2020-01-22 10:15 AM
-GLBLEXEMEA-844,840201,Task,Medium,Add proof of active bank account document upload,Done,2020-01-17 1:25 PM,2020-01-17 2:17 PM,,2020-01-17 2:17 PM
-GLBLEXEMEA-843,840199,Task,Medium,Add passport document upload instructions,Done,2020-01-17 1:21 PM,2020-01-17 1:59 PM,,2020-01-17 1:59 PM
-GLBLEXEMEA-841,840193,Task,Medium,Update PerformDocumentsVerificationForMerchant for new UAE doc types,Done,2020-01-17 1:00 PM,2020-02-24 12:43 PM,,2020-02-24 12:43 PM
-GLBLEXEMEA-840,839043,Task,Medium,Update `get_datums_verifiable_by_document` for new UAE document types,Done,2020-01-16 6:04 PM,2020-02-24 12:43 PM,,2020-02-24 12:43 PM
-GLBLEXEMEA-832,836158,Task,Medium,Allow verification strategies to check if a particular document was verified,Done,2020-01-14 1:00 PM,2020-01-24 1:51 PM,,2020-01-24 1:51 PM
-GLBLEXEMEA-830,834706,Task,Medium,Update document collection pipeline to use person & legal entity verification rejection errors in documents hash,Done,2020-01-13 4:27 PM,2020-01-17 9:41 AM,,2020-01-17 9:41 AM
-GLBLEXEMEA-829,834690,Task,Medium,Expose legal entity verification rejection errors for documents in documents hash,Done,2020-01-13 4:08 PM,2020-01-17 12:49 PM,,2020-01-17 12:49 PM
-GLBLEXEMEA-765,829772,Task,Medium,Add case for passport document to Command::GetDatumsVerificationStatus,Done,2020-01-08 1:43 PM,2020-01-10 12:36 PM,,2020-01-10 12:36 PM
-GLBLEXEMEA-764,829771,Task,Medium,Expose person verification rejection errors for documents in documents hash,Done,2020-01-08 1:41 PM,2020-01-14 12:55 PM,,2020-01-14 12:55 PM
-GLBLEXEMEA-763,829767,Task,Medium,Remove arabic from UAE AA provinces dropdown ,Done,2020-01-08 1:39 PM,2020-01-15 1:19 PM,,2020-01-15 1:19 PM
-GLBLEXEMEA-761,826580,Task,Medium,Write Redshift queries tracking NI settlements,Done,2020-01-06 11:07 AM,2020-02-24 10:18 AM,,2020-02-24 10:18 AM
-GLBLEXEMEA-758,825029,Task,Medium,Add Proof of Active Bank Account to Legal Entity - add close task class,Done,2020-01-03 12:14 PM,2020-02-18 9:54 AM,,2020-02-18 9:54 AM
-GLBLEXEMEA-757,825028,Task,Medium,Add Proof of Active Bank Account to Legal Entity - add document inline data,Done,2020-01-03 12:14 PM,2020-02-18 11:17 AM,,2020-02-18 11:17 AM
-GLBLEXEMEA-756,825027,Task,Medium,Add Proof of Active Bank Account to Legal Entity - create inline data for information,Done,2020-01-03 12:13 PM,2020-02-18 11:17 AM,,2020-02-18 11:17 AM
-GLBLEXEMEA-755,825026,Task,Medium,Add Proof of Active Bank Account to Legal Entity - add document provider,Done,2020-01-03 12:13 PM,2020-02-18 11:34 AM,,2020-02-18 11:34 AM
-GLBLEXEMEA-751,825022,Task,Medium,Add Proof of Active Bank Account to Legal Entity - add requirement to compliance plan,Done,2020-01-03 12:08 PM,2020-03-11 4:59 PM,,2020-03-11 4:59 PM
-GLBLEXEMEA-749,825018,Task,Medium,Add Proof of Active Bank Account to Legal Entity - update perform_document_verification_for_merchant to handle new document type,Done,2020-01-03 11:57 AM,2020-02-18 1:40 PM,,2020-02-18 1:40 PM
-GLBLEXEMEA-747,825013,Task,Medium,Add documents hash to legal entity model,Done,2020-01-03 11:46 AM,2020-01-10 12:36 PM,,2020-01-10 12:36 PM
-GLBLEXEMEA-744,824999,Task,Medium,Scoping merchant onboarding report,Done,2020-01-03 10:49 AM,2020-01-17 3:12 PM,,2020-01-17 3:12 PM
-GLBLEXEMEA-734,795531,Task,Medium,POC for collecting ID document from dashboard to review queue for UAE,Done,2019-11-25 10:38 AM,2019-11-26 2:24 PM,,2019-11-26 2:24 PM
-GLBLEXEMEA-733,795529,Task,Medium,Don't allow Arabic to be entered on the AA for UAE,Done,2019-11-25 10:37 AM,2020-01-03 11:07 AM,,2020-01-03 11:07 AM
-GLBLEXEMEA-710,792184,Task,Medium,Remove service agreement from UAE AA,Done,2019-11-21 5:20 PM,2019-11-26 4:23 PM,,2019-11-26 4:23 PM
-GLBLEXEMEA-702,783126,Task,Medium,Add `front_unset` and `back_unset` props to `DocumentFiles` and use everywhere,Done,2019-11-14 4:38 PM,2019-11-21 10:23 AM,,2019-11-21 10:23 AM
-GLBLEXEMEA-697,778893,Task,Medium,Update account app nationality collection and backend to use nationality field instead of `id_number_country`,Done,2019-11-11 1:15 PM,2020-02-19 3:33 PM,,2020-02-19 3:33 PM
-GLBLEXEMEA-696,778890,Task,Medium,Migrate UAE pilot users' nationality being stored from `id_number_country` to `nationalities`,Done,2019-11-11 1:13 PM,2020-07-03 1:57 PM,,2020-07-03 1:57 PM
-GLBLEXEMEA-692,778825,Task,Medium,Write UAE final compliance plan doc,Done,2019-11-11 10:20 AM,2019-11-15 10:51 AM,,2019-11-15 10:51 AM
-GLBLEXEMEA-691,778823,Task,Medium,Add passport to person - add passport_document requirement to compliance plan,Done,2019-11-11 10:18 AM,2020-02-13 12:25 PM,,2020-02-13 12:25 PM
-GLBLEXEMEA-625,764357,Task,Medium,End to End UAE merchant onboarding testing,Done,2019-10-29 10:09 AM,2020-04-14 10:59 AM,,2020-04-14 10:59 AM
-GLBLEXEMEA-599,750722,Task,Medium,End to end test UAE AA,Done,2019-10-18 2:43 PM,2019-11-25 10:13 AM,,2019-11-25 10:13 AM
-GLBLEXEMEA-598,750721,Task,Medium,Ramp up on compliance plans and do temp UAE compliance plan,Done,2019-10-18 2:43 PM,2019-11-18 4:46 PM,,2019-11-18 4:46 PM
-GLBLEXEMEA-548,738586,Task,Medium,Finalize UAE Email notification,Done,2019-10-08 5:30 PM,2020-03-12 9:36 AM,,2020-03-12 9:36 AM
-GLBLEXEMEA-546,738575,Task,Medium,Finalize UAE Account App,Done,2019-10-08 5:29 PM,2019-11-12 11:26 AM,,2019-11-12 11:26 AM
-GLBLEXEMEA-540,738523,Task,Medium,Add UAE person verification strategy,Done,2019-10-08 4:49 PM,2020-02-13 12:25 PM,,2020-02-13 12:25 PM
-GLBLEXEMEA-536,735286,Task,Medium,Add passport to person - update passport document collection UI to store passport in document_datums,Done,2019-10-04 12:02 PM,2019-10-18 1:46 PM,,2019-10-18 1:46 PM
-GLBLEXEMEA-533,729379,Story,Medium,Add nationality field on person object,Done,2019-09-30 10:04 AM,2019-10-17 10:43 AM,,2019-10-17 10:43 AM
-GLBLEXEMEA-513,716084,Task,Medium,Add passport to person - update Person pipeline to use document_datums,Done,2019-09-16 11:17 AM,2019-10-16 12:49 PM,,2019-10-16 12:49 PM
-GLBLEXEMEA-494,709035,Task,Medium,Add Memorandum of Association to Legal Entity - add requirement to compliance plan,Done,2019-09-09 2:13 PM,2020-03-11 4:59 PM,,2020-03-11 4:59 PM
-GLBLEXEMEA-493,709034,Task,Medium,Add License to Legal Entity - add requirement to compliance plan,Done,2019-09-09 2:12 PM,2020-03-11 4:59 PM,,2020-03-11 4:59 PM
-GLBLEXEMEA-491,709031,Task,Medium,Add Memorandum of Association to Legal Entity - add close task class,Done,2019-09-09 2:09 PM,2020-02-24 10:18 AM,,2020-02-24 10:18 AM
-GLBLEXEMEA-490,709030,Task,Medium,Add Memorandum of Association to Legal Entity - add configuration to route to queue ,Done,2019-09-09 2:09 PM,2020-02-25 11:18 AM,,2020-02-25 11:18 AM
-GLBLEXEMEA-488,709028,Task,Medium,Add Memorandum of Association to Legal Entity - create inline data for information,Done,2019-09-09 2:09 PM,2020-02-24 12:07 PM,,2020-02-24 12:07 PM
-GLBLEXEMEA-487,709026,Task,Medium,Add Memorandum of Association to Legal Entity - add document provider,Done,2019-09-09 2:08 PM,2020-02-24 3:49 PM,,2020-02-24 3:49 PM
-GLBLEXEMEA-486,709025,Task,Medium,Add Memorandum of Association to Legal Entity - update perform_document_verification_for_merchant to handle new document type,Done,2019-09-09 2:08 PM,2020-02-24 1:19 PM,,2020-02-24 1:19 PM
-GLBLEXEMEA-483,709021,Task,Medium,Add License to Legal Entity - add close task class,Done,2019-09-09 2:05 PM,2020-02-24 10:18 AM,,2020-02-24 10:18 AM
-GLBLEXEMEA-482,709020,Task,Medium,Add License to Legal Entity - add configuration to route to queue ,Done,2019-09-09 2:05 PM,2020-02-25 11:17 AM,,2020-02-25 11:17 AM
-GLBLEXEMEA-480,709018,Task,Medium,Add License to Legal Entity - create inline data for information,Done,2019-09-09 2:04 PM,2020-02-24 12:07 PM,,2020-02-24 12:07 PM
-GLBLEXEMEA-479,709017,Task,Medium,Add License to legal Entity - add document provider,Done,2019-09-09 2:03 PM,2020-02-24 3:49 PM,,2020-02-24 3:49 PM
-GLBLEXEMEA-478,709016,Task,Medium,Add License to Legal Entity - update perform_document_verification_for_merchant to handle new document type,Done,2019-09-09 2:02 PM,2020-02-24 1:19 PM,,2020-02-24 1:19 PM
-GLBLEXEMEA-475,709011,Task,Medium,Add Emirates ID to person - add close task class,Done,2019-09-09 1:53 PM,2019-12-20 12:01 PM,,2019-12-20 12:01 PM
-GLBLEXEMEA-474,709010,Task,Medium,Add Emirates ID to person - add configuration to route to queue ,Done,2019-09-09 1:52 PM,2019-12-20 12:01 PM,,2019-12-20 12:01 PM
-GLBLEXEMEA-473,709009,Task,Medium,Add Emirates ID to person - add document inline data,Done,2019-09-09 1:51 PM,2019-12-20 12:01 PM,,2019-12-20 12:01 PM
-GLBLEXEMEA-472,709008,Task,Medium,Add Emirates ID to person - create inline data for information,Done,2019-09-09 1:50 PM,2019-12-20 12:01 PM,,2019-12-20 12:01 PM
-GLBLEXEMEA-471,709007,Task,Medium,Add Emirates ID to person - add document provider,Done,2019-09-09 1:49 PM,2019-12-20 12:01 PM,,2019-12-20 12:01 PM
-GLBLEXEMEA-470,709006,Task,Medium,Add Emirates ID to person - collect on dashboard,Done,2019-09-09 1:48 PM,2019-12-20 12:14 PM,,2019-12-20 12:14 PM
-GLBLEXEMEA-449,697724,Bug,High,Cannot add eur EGLLSS account as an additional bank account ,Done,2019-08-27 10:25 AM,2019-08-30 2:55 PM,,2019-08-30 11:25 AM
-GLBLEXEMEA-444,696195,Bug,Medium,No placeholder for account number,Done,2019-08-26 5:04 PM,2019-08-27 5:41 PM,,2019-08-27 5:41 PM
-GLBLEXEMEA-443,696082,Bug,Medium,Fix routing number regex for GBP bank accounts on PEGLLSS stripe account,Done,2019-08-26 12:40 PM,2019-08-27 11:01 AM,,2019-08-27 11:01 AM
-GLBLEXEMEA-442,694332,Task,Medium,Add passport to person - add close task class,Done,2019-08-23 1:03 PM,2019-10-31 10:44 AM,,2019-10-31 10:44 AM
-GLBLEXEMEA-441,694331,Task,Medium,Add passport to person - add configuration to route to queue ,Done,2019-08-23 1:02 PM,2019-12-20 3:34 PM,,2019-12-20 3:34 PM
-GLBLEXEMEA-440,694327,Task,Medium,Add passport to person - add document inline data,Done,2019-08-23 12:59 PM,2019-11-05 4:05 PM,,2019-11-05 4:05 PM
-GLBLEXEMEA-439,694326,Task,Medium,Add passport to person - create inline data for information,Done,2019-08-23 12:57 PM,2019-11-05 4:05 PM,,2019-11-05 4:05 PM
-GLBLEXEMEA-438,694322,Task,Medium,Add passport to person - add document provider,Done,2019-08-23 12:40 PM,2019-11-04 9:48 AM,,2019-11-04 9:48 AM
-GLBLEXEMEA-437,694319,Task,Medium,Add passport to person - collect on dashboard,Done,2019-08-23 12:35 PM,2019-10-02 4:55 PM,,2019-10-02 4:55 PM
-GLBLEXEMEA-436,694307,Task,Medium,Add passport to person - add passport to person entity ,Done,2019-08-23 12:24 PM,2019-10-18 1:46 PM,,2019-10-18 1:46 PM
-GLBLEXEMEA-435,694306,Task,Medium,Add passport to person - add nationality datum ,Done,2019-08-23 12:23 PM,2019-10-16 4:36 PM,,2019-10-16 4:36 PM
-GLBLEXEMEA-434,694305,Task,Medium,Add passport to person - add nationality field to AAV2,Done,2019-08-23 12:22 PM,2019-11-12 10:44 AM,,2019-11-12 10:44 AM
-GLBLEXEMEA-417,689333,Task,Medium,Direct Account APP and payout to IE accounts test for Latvia,Done,2019-08-19 12:03 PM,2019-08-27 3:23 PM,,2019-08-27 3:23 PM
-GLBLEXEMEA-392,678300,Task,Medium,Legal entity type to be added for Slovakia Account App,Done,2019-08-08 1:34 PM,2019-08-20 4:59 PM,,2019-08-20 4:59 PM
-GLBLEXEMEA-390,675800,Task,Medium,Add passport to person - add sub task,Done,2019-08-06 11:31 AM,2019-10-30 1:00 PM,,2019-10-30 1:00 PM
-GLBLEXEMEA-383,675762,Task,Medium,Add id_document to person - add id_document requirement to compliance plan,Done,2019-08-06 10:31 AM,2020-02-13 12:25 PM,,2020-02-13 12:25 PM
-GLBLEXEMEA-300,623841,Task,Medium,Add new legal entity document types,Done,2019-06-13 11:33 AM,2020-01-09 11:07 AM,,2020-01-09 11:07 AM
-GLBLEXEMEA-290,616927,Task,Medium,Add a compliance plan for UAE,Done,2019-06-06 12:47 PM,2020-03-24 10:33 AM,,2020-03-24 10:33 AM
+Issue Type,Priority,Status,Created,Updated,Custom field (Severity),Resolved
+Task,Medium,Done,2020-11-05 12:58 PM,2020-11-06 11:28 AM,,2020-11-06 10:56 AM
+Task,Medium,Done,2020-11-05 10:14 AM,2020-11-06 10:56 AM,,2020-11-06 10:56 AM
+Task,Medium,Done,2020-11-03 4:38 PM,2020-11-04 12:45 PM,,2020-11-04 12:45 PM
+Task,Medium,Done,2020-10-16 10:08 AM,2020-10-27 5:01 PM,,2020-10-27 5:01 PM
+Task,Medium,Done,2020-10-14 5:16 PM,2020-10-20 1:10 PM,,2020-10-20 1:10 PM
+Task,Medium,Done,2020-10-07 10:18 AM,2020-10-12 8:16 PM,,2020-10-12 8:16 PM
+Task,Medium,Done,2020-09-22 2:26 PM,2020-09-22 4:00 PM,,2020-09-22 4:00 PM
+Task,Medium,Done,2020-09-22 12:24 PM,2020-09-23 8:44 AM,,2020-09-23 8:44 AM
+Task,Medium,Done,2020-09-18 12:37 PM,2020-09-21 2:13 PM,,2020-09-21 2:13 PM
+Task,Medium,Done,2020-09-17 6:18 PM,2020-09-17 6:22 PM,,2020-09-17 6:22 PM
+Task,Medium,Done,2020-09-16 5:43 PM,2020-09-23 8:47 AM,,2020-09-23 8:47 AM
+Task,Medium,Done,2020-09-14 10:52 AM,2020-09-19 3:56 PM,,2020-09-19 3:56 PM
+Task,Medium,Done,2020-09-14 10:09 AM,2020-09-17 1:29 PM,,2020-09-17 1:29 PM
+Task,Medium,Done,2020-09-11 3:16 PM,2020-09-16 11:47 AM,,2020-09-16 11:47 AM
+Task,Medium,Done,2020-09-07 12:16 PM,2020-09-14 4:48 PM,,2020-09-14 9:49 AM
+Task,Medium,Done,2020-09-04 10:29 AM,2020-09-25 1:16 PM,,2020-09-25 1:16 PM
+Task,Medium,Done,2020-08-27 5:25 PM,2020-08-28 4:30 PM,,2020-08-28 4:30 PM
+Task,Medium,Done,2020-08-18 4:52 PM,2020-08-19 12:10 PM,,2020-08-19 12:10 PM
+Task,Medium,Done,2020-08-17 10:38 AM,2020-08-28 4:30 PM,,2020-08-28 4:30 PM
+Task,Medium,Done,2020-08-14 10:31 AM,2020-11-11 4:18 PM,,2020-11-11 4:18 PM
+Task,Medium,Done,2020-08-12 11:15 AM,2020-08-18 5:47 PM,,2020-08-18 5:47 PM
+Task,Medium,Done,2020-08-12 10:51 AM,2020-08-13 3:11 PM,,2020-08-13 3:11 PM
+Task,Medium,Done,2020-08-12 9:57 AM,2020-08-12 12:10 PM,,2020-08-12 12:10 PM
+Task,Medium,Done,2020-08-11 11:44 AM,2020-08-12 10:14 AM,,2020-08-12 10:14 AM
+Task,Medium,Done,2020-08-07 3:06 PM,2020-08-13 2:03 PM,,2020-08-13 2:03 PM
+Task,Highest,Done,2020-07-30 4:10 PM,2020-08-11 4:05 PM,,2020-08-11 4:05 PM
+Task,Highest,Done,2020-07-30 4:10 PM,2020-08-11 10:57 AM,,2020-08-11 10:57 AM
+Task,Medium,Done,2020-07-29 1:24 AM,2020-10-12 4:39 PM,,2020-10-12 4:39 PM
+Task,Medium,Done,2020-07-22 1:48 AM,2020-10-12 5:50 PM,,2020-10-12 5:50 PM
+Task,Medium,Done,2020-07-21 6:48 PM,2020-10-12 5:34 PM,,2020-10-12 5:34 PM
+Task,Medium,Done,2020-07-16 1:19 PM,2020-08-27 10:38 AM,,2020-08-27 10:38 AM
+Task,Medium,Done,2020-07-16 2:09 AM,2020-09-21 1:30 PM,,2020-09-21 1:30 PM
+Task,Medium,Done,2020-07-15 4:55 PM,2020-07-15 5:41 PM,,2020-07-15 5:41 PM
+Task,Medium,Done,2020-07-15 1:58 PM,2020-07-17 11:52 AM,,2020-07-17 11:52 AM
+Task,Medium,Done,2020-07-14 1:41 PM,2020-08-25 3:24 PM,,2020-08-25 3:24 PM
+Task,Medium,Done,2020-07-14 10:24 AM,2020-07-30 2:44 PM,,2020-07-30 2:44 PM
+Task,Medium,Done,2020-07-05 4:50 PM,2020-11-11 4:18 PM,,2020-11-11 4:18 PM
+Task,Medium,Done,2020-07-03 4:14 PM,2020-07-16 11:17 AM,,2020-07-16 11:17 AM
+Bug,Medium,Done,2020-07-02 11:39 AM,2020-07-15 11:25 AM,,2020-07-15 10:06 AM
+Task,Medium,Done,2020-06-23 11:13 AM,2020-07-06 10:12 AM,,2020-07-06 10:12 AM
+Task,Medium,Done,2020-06-22 4:47 PM,2020-07-06 11:27 AM,,2020-07-06 11:27 AM
+Task,Medium,Done,2020-06-19 4:30 PM,2020-07-06 10:12 AM,,2020-07-06 10:12 AM
+Task,Medium,Done,2020-06-19 4:27 PM,2020-07-16 11:43 AM,,2020-07-16 11:43 AM
+Task,Medium,Done,2020-06-19 3:18 PM,2020-07-02 12:54 PM,,2020-07-02 12:54 PM
+Task,Medium,Done,2020-06-19 3:17 PM,2020-06-29 9:46 AM,,2020-06-29 9:46 AM
+Task,Medium,Done,2020-06-12 2:14 PM,2020-07-16 11:43 AM,,2020-07-16 11:43 AM
+Task,Medium,Done,2020-06-11 4:04 PM,2020-07-16 11:43 AM,,2020-07-16 11:43 AM
+Task,Medium,Done,2020-05-25 10:57 AM,2020-05-26 3:01 PM,,2020-05-26 3:01 PM
+Task,Medium,Done,2020-05-21 2:58 PM,2020-05-29 3:20 PM,,2020-05-29 3:20 PM
+Task,Medium,Done,2020-05-21 2:40 PM,2020-05-21 5:25 PM,,2020-05-21 5:25 PM
+Task,Medium,Done,2020-05-21 9:44 AM,2020-05-28 4:49 PM,,2020-05-28 4:49 PM
+Task,Medium,Done,2020-05-20 2:38 PM,2020-05-20 4:14 PM,,2020-05-20 4:14 PM
+Task,Medium,Done,2020-05-20 12:50 PM,2020-05-28 9:55 AM,,2020-05-28 9:55 AM
+Task,Medium,Done,2020-05-18 10:49 AM,2020-05-18 10:53 AM,,2020-05-18 10:53 AM
+Bug,Medium,Done,2020-05-15 10:48 AM,2020-05-18 3:18 PM,,2020-05-18 3:18 PM
+Task,Medium,Done,2020-05-14 4:56 PM,2020-06-08 9:40 AM,,2020-06-08 9:40 AM
+Task,Medium,Done,2020-05-13 11:33 AM,2020-06-03 4:31 PM,,2020-06-03 4:31 PM
+Task,Medium,Done,2020-05-12 4:28 PM,2020-05-29 10:27 AM,,2020-05-29 10:27 AM
+Task,Medium,Done,2020-05-12 11:10 AM,2020-05-13 10:05 AM,,2020-05-13 10:05 AM
+Task,Low,Done,2020-05-11 3:07 PM,2020-06-24 11:35 AM,,2020-06-24 11:35 AM
+Task,Medium,Done,2020-05-08 11:59 AM,2020-05-08 12:06 PM,,2020-05-08 12:06 PM
+Task,Medium,Done,2020-05-07 3:28 PM,2020-05-21 5:12 PM,,2020-05-21 5:12 PM
+Task,Medium,Done,2020-05-07 2:03 PM,2020-05-13 11:35 AM,,2020-05-13 11:35 AM
+Task,Medium,Done,2020-05-05 3:04 PM,2020-05-11 11:10 AM,,2020-05-11 11:10 AM
+Task,Medium,Done,2020-04-30 4:54 PM,2020-04-30 6:37 PM,,2020-04-30 6:37 PM
+Task,Medium,Done,2020-04-30 10:04 AM,2020-05-11 10:05 AM,,2020-05-11 10:05 AM
+Task,Medium,Done,2020-04-30 10:04 AM,2020-05-13 11:36 AM,,2020-05-13 11:36 AM
+Task,Medium,Done,2020-04-24 6:15 PM,2020-05-06 5:51 PM,,2020-05-06 5:51 PM
+Task,Medium,Done,2020-04-24 6:15 PM,2020-04-29 1:20 PM,,2020-04-29 1:20 PM
+Task,Medium,Done,2020-04-24 6:09 PM,2020-05-06 8:57 PM,,2020-05-06 8:57 PM
+Task,Medium,Done,2020-04-24 6:08 PM,2020-05-06 8:57 PM,,2020-05-06 8:57 PM
+Task,Medium,Done,2020-04-24 6:07 PM,2020-05-12 10:46 AM,,2020-05-12 10:11 AM
+Task,Medium,Done,2020-04-24 6:06 PM,2020-05-12 10:42 AM,,2020-05-12 10:42 AM
+Task,Medium,Done,2020-04-24 6:06 PM,2020-04-29 2:49 PM,,2020-04-29 2:49 PM
+Task,Medium,Done,2020-04-24 6:03 PM,2020-04-29 3:57 PM,,2020-04-29 3:57 PM
+Task,Medium,Done,2020-04-23 5:49 PM,2020-05-05 1:12 PM,,2020-05-05 1:12 PM
+Task,Medium,Done,2020-04-23 10:51 AM,2020-04-23 5:22 PM,,2020-04-23 5:22 PM
+Task,Medium,Done,2020-04-16 2:47 PM,2020-04-16 5:25 PM,,2020-04-16 5:25 PM
+Task,Medium,Done,2020-04-15 4:19 PM,2020-04-17 3:29 PM,,2020-04-17 3:26 PM
+Task,Medium,Done,2020-04-14 8:57 AM,2020-08-10 11:44 AM,,2020-08-10 11:44 AM
+Task,Medium,Done,2020-04-14 8:55 AM,2020-07-03 12:21 PM,,2020-07-03 12:21 PM
+Task,Medium,Done,2020-04-09 4:27 PM,2020-05-28 9:55 AM,,2020-05-28 9:55 AM
+Task,Medium,Done,2020-04-09 4:26 PM,2020-06-19 9:50 AM,,2020-06-19 9:50 AM
+Task,Medium,Done,2020-04-09 4:17 PM,2020-06-23 4:20 PM,,2020-06-23 4:20 PM
+Task,Medium,Done,2020-04-09 4:09 PM,2020-04-30 4:58 PM,,2020-04-30 4:58 PM
+Task,Medium,Done,2020-04-09 4:01 PM,2020-05-14 1:36 PM,,2020-05-14 1:36 PM
+Task,Low,Done,2020-04-09 4:00 PM,2020-06-24 11:35 AM,,2020-06-24 11:35 AM
+Task,Medium,Done,2020-04-09 3:58 PM,2020-06-24 1:22 PM,,2020-06-24 1:22 PM
+Task,Medium,Done,2020-04-09 3:57 PM,2020-06-18 2:58 PM,,2020-06-18 2:58 PM
+Task,Medium,Done,2020-04-09 3:55 PM,2020-05-20 9:10 PM,,2020-05-20 9:10 PM
+Task,Medium,Done,2020-04-09 3:53 PM,2020-05-13 6:32 PM,,2020-05-13 6:32 PM
+Task,Medium,Done,2020-04-09 3:51 PM,2020-06-18 4:53 PM,,2020-06-18 4:53 PM
+Task,Medium,Done,2020-04-09 3:48 PM,2020-05-20 2:40 PM,,2020-05-20 2:40 PM
+Task,Medium,Done,2020-04-09 3:45 PM,2020-05-13 3:06 PM,,2020-05-13 3:06 PM
+Task,Medium,Done,2020-04-09 3:43 PM,2020-05-12 4:16 PM,,2020-05-12 4:16 PM
+Task,Medium,Done,2020-04-09 2:52 PM,2020-04-23 3:51 PM,,2020-04-23 3:51 PM
+Task,Medium,Done,2020-04-09 2:38 PM,2020-08-10 11:44 AM,,2020-08-10 11:44 AM
+Task,Medium,Done,2020-04-09 2:37 PM,2020-04-22 10:05 AM,,2020-04-22 10:05 AM
+Task,Medium,Done,2020-04-08 4:58 PM,2020-04-27 3:36 PM,,2020-04-27 3:36 PM
+Task,Medium,Done,2020-04-08 4:47 PM,2020-06-19 3:19 PM,,2020-06-19 3:19 PM
+Task,Medium,Done,2020-04-06 7:15 PM,2020-04-07 9:53 AM,,2020-04-07 9:53 AM
+Task,Medium,Done,2020-04-06 6:56 PM,2020-04-07 3:09 PM,,2020-04-07 3:09 PM
+Task,Medium,Done,2020-04-06 2:35 PM,2020-04-07 9:53 AM,,2020-04-07 9:53 AM
+Task,Medium,Done,2020-04-06 1:45 PM,2020-04-07 9:53 AM,,2020-04-07 9:53 AM
+Task,Medium,Done,2020-04-06 11:28 AM,2020-04-06 7:20 PM,,2020-04-06 7:20 PM
+Task,Medium,Done,2020-04-01 6:16 PM,2020-04-23 2:27 PM,,2020-04-23 2:27 PM
+Task,Medium,Done,2020-04-01 6:15 PM,2020-04-20 7:24 PM,,2020-04-20 7:24 PM
+Task,Medium,Done,2020-04-01 6:14 PM,2020-04-21 9:54 AM,,2020-04-21 9:54 AM
+Task,Medium,Done,2020-04-01 6:12 PM,2020-04-16 5:26 PM,,2020-04-16 5:26 PM
+Task,Medium,Done,2020-03-29 5:07 PM,2020-04-01 1:53 PM,,2020-04-01 1:53 PM
+Task,Medium,Done,2020-03-29 5:05 PM,2020-04-01 6:58 PM,,2020-04-01 6:58 PM
+Task,Medium,Done,2020-03-29 5:04 PM,2020-04-15 4:08 PM,,2020-04-15 4:08 PM
+Task,Medium,Done,2020-03-29 5:03 PM,2020-04-08 3:33 PM,,2020-04-08 3:33 PM
+Task,Medium,Done,2020-03-29 5:02 PM,2020-04-09 6:04 PM,,2020-04-09 6:04 PM
+Task,Medium,Done,2020-03-29 5:01 PM,2020-04-14 2:56 PM,,2020-04-14 2:56 PM
+Task,Medium,Done,2020-03-29 5:00 PM,2020-04-09 6:03 PM,,2020-04-09 6:03 PM
+Task,Medium,Done,2020-03-29 4:59 PM,2020-04-14 4:51 PM,,2020-04-14 4:51 PM
+Task,Medium,Done,2020-03-29 4:58 PM,2020-04-17 1:05 PM,,2020-04-17 1:05 PM
+Task,Medium,Done,2020-03-29 4:56 PM,2020-04-16 2:56 PM,,2020-04-16 2:56 PM
+Task,Medium,Done,2020-03-29 4:55 PM,2020-04-14 2:55 PM,,2020-04-14 2:55 PM
+Task,Medium,Done,2020-03-29 4:54 PM,2020-04-16 5:25 PM,,2020-04-16 5:25 PM
+Task,Medium,Done,2020-03-29 4:51 PM,2020-04-14 4:57 PM,,2020-04-14 4:57 PM
+Task,Medium,Done,2020-03-29 4:39 PM,2020-04-16 5:25 PM,,2020-04-16 5:25 PM
+Task,Medium,Done,2020-03-16 10:58 AM,2020-03-19 3:19 PM,,2020-03-19 3:19 PM
+Task,Medium,Done,2020-03-12 10:10 AM,2020-03-19 2:25 PM,,2020-03-19 2:25 PM
+Task,Medium,Done,2020-03-12 9:37 AM,2020-04-24 4:33 PM,,2020-04-24 4:33 PM
+Task,Medium,Done,2020-03-11 1:29 PM,2020-03-12 9:36 AM,,2020-03-12 9:36 AM
+Task,Medium,Done,2020-03-11 11:33 AM,2020-03-11 6:02 PM,,2020-03-11 6:02 PM
+Bug,Medium,Done,2020-03-06 5:42 PM,2020-03-09 11:07 PM,,2020-03-09 10:56 PM
+Task,Medium,Done,2020-03-02 10:10 AM,2020-03-20 12:58 PM,,2020-03-20 12:58 PM
+Task,Medium,Done,2020-03-02 10:10 AM,2020-03-10 4:07 PM,,2020-03-10 4:07 PM
+Task,Medium,Done,2020-02-20 10:36 AM,2020-03-25 10:03 AM,,2020-03-25 10:03 AM
+Task,Medium,Done,2020-02-20 10:36 AM,2020-03-24 3:09 PM,,2020-03-24 3:09 PM
+Task,Medium,Done,2020-02-18 11:48 AM,2020-02-25 2:59 PM,,2020-02-25 2:59 PM
+Task,Medium,Done,2020-02-13 10:24 PM,2020-02-21 10:30 AM,,2020-02-21 10:30 AM
+Task,Medium,Done,2020-02-13 3:14 PM,2020-03-04 9:28 AM,,2020-03-04 9:28 AM
+Task,Medium,Done,2020-02-06 11:49 AM,2020-02-13 10:37 AM,,2020-02-13 10:37 AM
+Task,Medium,Done,2020-02-06 11:48 AM,2020-02-18 3:32 PM,,2020-02-18 3:32 PM
+Task,Medium,Done,2020-02-06 11:17 AM,2020-02-06 4:56 PM,,2020-02-06 4:56 PM
+Task,Medium,Done,2020-02-03 10:15 AM,2020-02-11 9:43 AM,,2020-02-11 9:43 AM
+Task,Medium,Done,2020-01-29 11:12 AM,2020-01-30 1:45 PM,,2020-01-30 1:45 PM
+Task,Medium,Done,2020-01-24 4:25 PM,2020-02-17 11:33 AM,,2020-02-17 11:33 AM
+Task,Medium,Done,2020-01-23 4:52 PM,2020-02-11 9:43 AM,,2020-02-11 9:43 AM
+Task,Medium,Done,2020-01-23 12:49 PM,2020-01-23 4:53 PM,,2020-01-23 4:53 PM
+Task,Medium,Done,2020-01-22 10:17 AM,2020-02-04 9:16 AM,,2020-02-04 9:16 AM
+Task,Medium,Done,2020-01-20 9:39 AM,2020-03-26 4:56 PM,,2020-03-26 4:56 PM
+Task,Medium,Done,2020-01-17 9:55 PM,2020-01-22 10:15 AM,,2020-01-22 10:15 AM
+Task,Medium,Done,2020-01-17 1:25 PM,2020-01-17 2:17 PM,,2020-01-17 2:17 PM
+Task,Medium,Done,2020-01-17 1:21 PM,2020-01-17 1:59 PM,,2020-01-17 1:59 PM
+Task,Medium,Done,2020-01-17 1:00 PM,2020-02-24 12:43 PM,,2020-02-24 12:43 PM
+Task,Medium,Done,2020-01-16 6:04 PM,2020-02-24 12:43 PM,,2020-02-24 12:43 PM
+Task,Medium,Done,2020-01-14 1:00 PM,2020-01-24 1:51 PM,,2020-01-24 1:51 PM
+Task,Medium,Done,2020-01-13 4:27 PM,2020-01-17 9:41 AM,,2020-01-17 9:41 AM
+Task,Medium,Done,2020-01-13 4:08 PM,2020-01-17 12:49 PM,,2020-01-17 12:49 PM
+Task,Medium,Done,2020-01-08 1:43 PM,2020-01-10 12:36 PM,,2020-01-10 12:36 PM
+Task,Medium,Done,2020-01-08 1:41 PM,2020-01-14 12:55 PM,,2020-01-14 12:55 PM
+Task,Medium,Done,2020-01-08 1:39 PM,2020-01-15 1:19 PM,,2020-01-15 1:19 PM
+Task,Medium,Done,2020-01-06 11:07 AM,2020-02-24 10:18 AM,,2020-02-24 10:18 AM
+Task,Medium,Done,2020-01-03 12:14 PM,2020-02-18 9:54 AM,,2020-02-18 9:54 AM
+Task,Medium,Done,2020-01-03 12:14 PM,2020-02-18 11:17 AM,,2020-02-18 11:17 AM
+Task,Medium,Done,2020-01-03 12:13 PM,2020-02-18 11:17 AM,,2020-02-18 11:17 AM
+Task,Medium,Done,2020-01-03 12:13 PM,2020-02-18 11:34 AM,,2020-02-18 11:34 AM
+Task,Medium,Done,2020-01-03 12:08 PM,2020-03-11 4:59 PM,,2020-03-11 4:59 PM
+Task,Medium,Done,2020-01-03 11:57 AM,2020-02-18 1:40 PM,,2020-02-18 1:40 PM
+Task,Medium,Done,2020-01-03 11:46 AM,2020-01-10 12:36 PM,,2020-01-10 12:36 PM
+Task,Medium,Done,2020-01-03 10:49 AM,2020-01-17 3:12 PM,,2020-01-17 3:12 PM
+Task,Medium,Done,2019-11-25 10:38 AM,2019-11-26 2:24 PM,,2019-11-26 2:24 PM
+Task,Medium,Done,2019-11-25 10:37 AM,2020-01-03 11:07 AM,,2020-01-03 11:07 AM
+Task,Medium,Done,2019-11-21 5:20 PM,2019-11-26 4:23 PM,,2019-11-26 4:23 PM
+Task,Medium,Done,2019-11-14 4:38 PM,2019-11-21 10:23 AM,,2019-11-21 10:23 AM
+Task,Medium,Done,2019-11-11 1:15 PM,2020-02-19 3:33 PM,,2020-02-19 3:33 PM
+Task,Medium,Done,2019-11-11 1:13 PM,2020-07-03 1:57 PM,,2020-07-03 1:57 PM
+Task,Medium,Done,2019-11-11 10:20 AM,2019-11-15 10:51 AM,,2019-11-15 10:51 AM
+Task,Medium,Done,2019-11-11 10:18 AM,2020-02-13 12:25 PM,,2020-02-13 12:25 PM
+Task,Medium,Done,2019-10-29 10:09 AM,2020-04-14 10:59 AM,,2020-04-14 10:59 AM
+Task,Medium,Done,2019-10-18 2:43 PM,2019-11-25 10:13 AM,,2019-11-25 10:13 AM
+Task,Medium,Done,2019-10-18 2:43 PM,2019-11-18 4:46 PM,,2019-11-18 4:46 PM
+Task,Medium,Done,2019-10-08 5:30 PM,2020-03-12 9:36 AM,,2020-03-12 9:36 AM
+Task,Medium,Done,2019-10-08 5:29 PM,2019-11-12 11:26 AM,,2019-11-12 11:26 AM
+Task,Medium,Done,2019-10-08 4:49 PM,2020-02-13 12:25 PM,,2020-02-13 12:25 PM
+Task,Medium,Done,2019-10-04 12:02 PM,2019-10-18 1:46 PM,,2019-10-18 1:46 PM
+Story,Medium,Done,2019-09-30 10:04 AM,2019-10-17 10:43 AM,,2019-10-17 10:43 AM
+Task,Medium,Done,2019-09-16 11:17 AM,2019-10-16 12:49 PM,,2019-10-16 12:49 PM
+Task,Medium,Done,2019-09-09 2:13 PM,2020-03-11 4:59 PM,,2020-03-11 4:59 PM
+Task,Medium,Done,2019-09-09 2:12 PM,2020-03-11 4:59 PM,,2020-03-11 4:59 PM
+Task,Medium,Done,2019-09-09 2:09 PM,2020-02-24 10:18 AM,,2020-02-24 10:18 AM
+Task,Medium,Done,2019-09-09 2:09 PM,2020-02-25 11:18 AM,,2020-02-25 11:18 AM
+Task,Medium,Done,2019-09-09 2:09 PM,2020-02-24 12:07 PM,,2020-02-24 12:07 PM
+Task,Medium,Done,2019-09-09 2:08 PM,2020-02-24 3:49 PM,,2020-02-24 3:49 PM
+Task,Medium,Done,2019-09-09 2:08 PM,2020-02-24 1:19 PM,,2020-02-24 1:19 PM
+Task,Medium,Done,2019-09-09 2:05 PM,2020-02-24 10:18 AM,,2020-02-24 10:18 AM
+Task,Medium,Done,2019-09-09 2:05 PM,2020-02-25 11:17 AM,,2020-02-25 11:17 AM
+Task,Medium,Done,2019-09-09 2:04 PM,2020-02-24 12:07 PM,,2020-02-24 12:07 PM
+Task,Medium,Done,2019-09-09 2:03 PM,2020-02-24 3:49 PM,,2020-02-24 3:49 PM
+Task,Medium,Done,2019-09-09 2:02 PM,2020-02-24 1:19 PM,,2020-02-24 1:19 PM
+Task,Medium,Done,2019-09-09 1:53 PM,2019-12-20 12:01 PM,,2019-12-20 12:01 PM
+Task,Medium,Done,2019-09-09 1:52 PM,2019-12-20 12:01 PM,,2019-12-20 12:01 PM
+Task,Medium,Done,2019-09-09 1:51 PM,2019-12-20 12:01 PM,,2019-12-20 12:01 PM
+Task,Medium,Done,2019-09-09 1:50 PM,2019-12-20 12:01 PM,,2019-12-20 12:01 PM
+Task,Medium,Done,2019-09-09 1:49 PM,2019-12-20 12:01 PM,,2019-12-20 12:01 PM
+Task,Medium,Done,2019-09-09 1:48 PM,2019-12-20 12:14 PM,,2019-12-20 12:14 PM
+Bug,High,Done,2019-08-27 10:25 AM,2019-08-30 2:55 PM,,2019-08-30 11:25 AM
+Bug,Medium,Done,2019-08-26 5:04 PM,2019-08-27 5:41 PM,,2019-08-27 5:41 PM
+Bug,Medium,Done,2019-08-26 12:40 PM,2019-08-27 11:01 AM,,2019-08-27 11:01 AM
+Task,Medium,Done,2019-08-23 1:03 PM,2019-10-31 10:44 AM,,2019-10-31 10:44 AM
+Task,Medium,Done,2019-08-23 1:02 PM,2019-12-20 3:34 PM,,2019-12-20 3:34 PM
+Task,Medium,Done,2019-08-23 12:59 PM,2019-11-05 4:05 PM,,2019-11-05 4:05 PM
+Task,Medium,Done,2019-08-23 12:57 PM,2019-11-05 4:05 PM,,2019-11-05 4:05 PM
+Task,Medium,Done,2019-08-23 12:40 PM,2019-11-04 9:48 AM,,2019-11-04 9:48 AM
+Task,Medium,Done,2019-08-23 12:35 PM,2019-10-02 4:55 PM,,2019-10-02 4:55 PM
+Task,Medium,Done,2019-08-23 12:24 PM,2019-10-18 1:46 PM,,2019-10-18 1:46 PM
+Task,Medium,Done,2019-08-23 12:23 PM,2019-10-16 4:36 PM,,2019-10-16 4:36 PM
+Task,Medium,Done,2019-08-23 12:22 PM,2019-11-12 10:44 AM,,2019-11-12 10:44 AM
+Task,Medium,Done,2019-08-19 12:03 PM,2019-08-27 3:23 PM,,2019-08-27 3:23 PM
+Task,Medium,Done,2019-08-08 1:34 PM,2019-08-20 4:59 PM,,2019-08-20 4:59 PM
+Task,Medium,Done,2019-08-06 11:31 AM,2019-10-30 1:00 PM,,2019-10-30 1:00 PM
+Task,Medium,Done,2019-08-06 10:31 AM,2020-02-13 12:25 PM,,2020-02-13 12:25 PM
+Task,Medium,Done,2019-06-13 11:33 AM,2020-01-09 11:07 AM,,2020-01-09 11:07 AM
+Task,Medium,Done,2019-06-06 12:47 PM,2020-03-24 10:33 AM,,2020-03-24 10:33 AM
