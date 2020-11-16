@@ -13,8 +13,7 @@ module CSVData
     headers, *data = CSV.read(path)
     resolved_column = headers.index(RESOLVED)
     resolved_dates = data.flat_map { |row| Date.parse row[resolved_column] }
-    sorted_dates = resolved_dates.sort
-    grouped_into_weeks = sorted_dates.group_by { |date| date - date.wday }
+    grouped_into_weeks = resolved_dates.group_by { |date| date - date.wday }
     grouped_into_weeks.values.map(&:length)
   end
 end
