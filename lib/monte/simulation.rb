@@ -10,32 +10,30 @@
 module Simulation
   PERCENTILES = [0.05, 0.15, 0.3, 0.5, 0.7, 0.85, 0.95].freeze
 
-  def percentiles(args)
-    results = run_simulations(args).sort
+  def percentiles(options)
+    results = run_simulations(options).sort
     PERCENTILES.map do |percentile|
-      index = args[:runs] * (percentile - 1)
+      index = options[:runs] * (percentile - 1)
       results[index]
     end
   end
 
-  def run_simulations(args)
-    estimated_backlog = args[:backlog] * args[:split_factor]
-    Array.new(args[:runs]) do |_|
-      args[:start_date] + simulate(
+  def run_simulations(options)
+    estimated_backlog = options[:backlog] * options[:split]
+    Array.new(options[:runs]) do |_|
+      options[:start] + simulate(
         estimated_backlog,
-        args[:low],
-        args[:high]
+        options[:throughput]
       ) * 7
     end
   end
 
-  def simulate(backlog, low, high, result = 0)
+  def simulate(backlog, throughput, result = 0)
     return result if backlog <= 0
 
     simulate(
-      backlog - rand(low..high),
-      low,
-      high,
+      backlog - throughput.sample,
+      throughput,
       result + 1
     )
   end
