@@ -26,7 +26,7 @@ module Monte
         invoke :help, ['carlo']
       else
         require_relative 'commands/carlo'
-        Monte::Commands::Carlo.new(options).execute
+        Monte::Commands::Carlo.new.execute
       end
     end
   end
