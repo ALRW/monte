@@ -20,9 +20,10 @@ Please answer the following questions\n)
 
       def execute
         puts(create_header, BLURB)
-        user_input = ask_questions({})
-        results = percentiles(user_input)
-        puts(create_table(results))
+        table = ask_questions({})
+                .then { |answers| percentiles(answers) }
+                .then { |pcentile| create_table(pcentile) }
+        puts(table)
       end
 
       def create_table(rows)
@@ -43,24 +44,26 @@ Please answer the following questions\n)
       end
 
       def ask_backlog(options)
-        options.merge(backlog:
-                      prompt.ask('How many tasks/tickets do you have left to complete?',
-                                 required: true,
-                                 convert: :int))
+        options.merge(backlog: prompt.ask(
+          'How many tasks/tickets do you have left to complete?',
+          required: true,
+          convert: :int
+        ))
       end
 
       def ask_split(options)
-        options.merge(split:
-                      prompt.select('How certain are you with regard to the scope of the work?', CERTAINTY))
+        options.merge(split: prompt.select(
+          'How certain are you with regard to the scope of the work?',
+          CERTAINTY
+        ))
       end
 
       def ask_start(options)
-        options.merge(start:
-                      prompt.ask('When will you start work (e.g. 28/04/2021)') do |q|
-                        q.required true
-                        q.default Date.today
-                        q.convert ->(input) { Date.parse(input.to_s) }
-                      end)
+        options.merge(start: prompt.ask('When will you start work (e.g. 28/04/2021)') do |q|
+                               q.required true
+                               q.default Date.today
+                               q.convert ->(input) { Date.parse(input.to_s) }
+                             end)
       end
 
       def ask_throughput(options)
