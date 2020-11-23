@@ -35,11 +35,11 @@ Please answer the following questions\n)
       end
 
       def ask_questions(options)
-        q1 = ask_backlog(options)
-        q2 = ask_throughput(q1)
-        q3 = ask_start(q2)
-        q4 = ask_split(q3)
-        ask_runs(q4)
+        ask_backlog(options)
+          .then { |opts| ask_start(opts) }
+          .then { |opts| ask_throughput(opts) }
+          .then { |opts| ask_split(opts) }
+          .then { |opts| ask_runs(opts) }
       end
 
       def ask_backlog(options)
