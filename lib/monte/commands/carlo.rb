@@ -20,10 +20,10 @@ Please answer the following questions\n)
 
       def execute
         puts(create_header, BLURB)
-        table = ask_questions({})
-                .then { |answers| percentiles(answers) }
-                .then { |pcentile| create_table(pcentile) }
-        puts(table)
+          .then { |_| ask_questions({}) }
+          .then { |answers| percentiles(answers) }
+          .then { |pcentile| create_table(pcentile) }
+          .then { |table| puts(table) }
       end
 
       def create_table(rows)
